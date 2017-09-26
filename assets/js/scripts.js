@@ -44,6 +44,9 @@ $(function(){
                 .then(function(){
                     resetForm();
                 });
+        }).fail(function(){
+            swal('Oops...', 'Algo de errado no envio do email. Tente novamente mais tarde!', 'error');
+            resetButton();
         });
 
         function resetForm() {

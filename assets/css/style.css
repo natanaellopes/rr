@@ -1,0 +1,89 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: #FFF;
+}
+
+.navbar li a.nav-link {
+    color: #0793e0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #0793e0;
+    line-height: 1.4em;
+}
+
+#section3 h1 {
+    font-size: 30px;
+}
+
+#section2 p {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #0793e0;
+}
+
+.section{
+    background: url("../images/bg.jpg") no-repeat right bottom #fff;
+    background-size: cover;
+}
+
+#section4 {
+    background: #0793e0;
+}
+
+#section4 .container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#section4 h1 {
+    color: #fff;
+}
+
+#form input ,
+#form textarea {
+    border: 1px solid #fff;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 12px 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #0793e0;
+    font-weight: bolder;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #0793e0;
+    font-weight: bolder;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #0793e0;
+    font-weight: bolder;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #0793e0;
+    font-weight: bolder;
+}
+
+#btn {
+    margin-top: 20px;
+    font-weight: bolder;
+    width: 100%;
+    background: #fff;
+    color: #0793e0;
+    border: 1px solid #fff;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn[disabled] {
+    color: gray;
+}

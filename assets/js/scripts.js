@@ -6,7 +6,7 @@ $(function(){
             'textColor': '#fff',
             'bulletsColor': '#fff',
             'position': 'right',
-            'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+            'tooltips': ['Home', 'Você precisa', 'Entenda', 'Contato']
         }
     });
 
